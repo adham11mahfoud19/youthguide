@@ -24,7 +24,7 @@ export default function Home() {
         <Events />
         <hr className="h-[2px] bg-greenPrime dark:bg-white" />
         <Sharakat />
-        <Footer fixed="fixed"/>
+        <Footer />
     </div>
   );
 }
