@@ -17,18 +17,7 @@ const Navbar = () => {
     let [navbar, setNavbar] = useState(false)
    
 
-    const changeBackfound = () => {
-            if(window.scrollY >= 30) {
-                setNavbar(true)
-            } else {
-                setNavbar(false)
-            }
-    }
 
-    
-   
-   
-    window.addEventListener("scroll", changeBackfound)
     
     let [scrollMenu, setScrollMenu] = useState(false)
   return (
